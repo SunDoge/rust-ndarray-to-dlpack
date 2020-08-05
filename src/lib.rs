@@ -3,7 +3,7 @@ pub mod dlpack;
 use pyo3::prelude::*;
 use pyo3::wrap_pyfunction;
 
-use std::ffi::{CStr, CString};
+use std::ffi::CString;
 use std::os::raw::{c_int, c_void};
 
 /// Formats the sum of two numbers as string.
