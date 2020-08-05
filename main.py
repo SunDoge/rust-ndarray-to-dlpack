@@ -1,5 +1,6 @@
 import string_sum
 from torch.utils.dlpack import from_dlpack
+# from mxnet.ndarray import from_dlpack
 
 a, b = 100, 1000
 print(f'{a} + {b} = {string_sum.sum_as_string(a, b)}')
